@@ -1,0 +1,64 @@
+body{
+   color: white;
+   background-color: rgba(75, 68, 75, 0.795);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex; /* */
+    justify-content: space-between; 
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+a { /*para tirar a cor do link*/
+    color: purple;
+    text-decoration: none;
+}
+
+header img { /*arrumar o tamanho da imagem apenas qeu esta dentro do header*/
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5x solid purple;
+}
+
+.center { /*trabalhar o div do html*/
+    text-align: center;
+}
+
+h1 { /*mudando a cor do titulo*/
+    color: purple;
+}
+
+footer img { /*editar as imagens que ta dentro do footer*/
+    width: 40px;
+    height: 40px;
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a {
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 3px;
+    color: white;
+}
+ 
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover { /*quando passar o mouse por cima vai mudar de cor*/
+    color: white
+}
